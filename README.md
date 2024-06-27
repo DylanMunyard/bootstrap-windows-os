@@ -14,6 +14,8 @@ Import-Module -Name Terminal-Icons
 - https://www.nerdfonts.com/font-downloads > Caskaydia Cove Nerd Font
 - Windows Terminal > Settings > <Terminal> > Appearance
 
+[Posh theme](./amro.omp.json)
+
 **WSL2** \
 Register for Windows Insider Programme \
 Download update https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
