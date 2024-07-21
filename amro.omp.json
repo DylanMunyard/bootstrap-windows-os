@@ -63,6 +63,12 @@
           "style": "plain",
           "template": "<#14A5AE>on</> {{.UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }} ",
           "type": "git"
+        },
+        {
+          "foreground": "#9ec3f0",
+          "template": " \uebd8 {{ .Name }} ",
+          "type": "az",
+          "style": "plain"
         }
       ],
       "type": "prompt"
